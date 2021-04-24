@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Array</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <div class="navbar">
+        <button id="user-btn" class="btn">Add User</button>
+        <input
+          name="search"
+          class="search"
+          id="search"
+          type="text"
+          autocomplete="off"
+          placeholder="search user"
+        />
+        <button id="sort-acn" class="btn">Acen Sort</button>
+        <button id="sort-dec" class="btn">Dec Sort</button>
+      </div>
+      <div class="tabel-heading">
+        <table>
+          <tr>
+            <th class="td4">Name</th>
+            <th class="td5">Gender</th>
+            <th class="td6">Email</th>
+          </tr>
+        </table>
+      </div>
+      <div id="user-list"></div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
